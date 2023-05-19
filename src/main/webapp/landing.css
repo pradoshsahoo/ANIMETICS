@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+}
+.navbar a {
+  color: #e7e7e7;
+  text-decoration:none;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  align-items:center;
+}
+
+.navbar .brand {
+  display: block;
+  color: #e7e7e7;
+  padding: 0 24px;
+  font-size: 20px;
+}
+
+.navbar ul li a {
+  color: #e7e7e7;
+  padding: 24px;
+  display: block;
+}
+.navbar ul a:hover,
+.navbar ul a:focus,
+.navbar ul .active {
+  background-color: #272727;
+}
+.home{
+    background-image: url("Untitled-1.jpg");
+    background-size: auto;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.home .head-1{
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+.home .head-1  .text--1{
+    color: white;
+    font-size: 3.5em;
+    line-height: 60px;
+    padding-left: 40px;
+    padding-top:30px;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    font-weight: 600;
+
+}
+.home .head-1  .text--1 a{
+    font-weight: 650;
+
+}
+.home .head-1  .text--1 hr{
+    width: 20%;
+    height: 5px;
+    background-color: #e7e7e7;
+     margin-top: 20px;
+     border-width: 0px;
+
+}
+.home .head-1  .text--2{
+    color: white;
+    font-size: 25px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    line-height: 30px;
+}
+.home .head-1  .button-getStarted button{
+    color: white;
+    width: 20%;
+    border: 1px white solid;
+    margin: 40px;
+    margin-top:20px;
+    font-size: 23px;
+    padding: 10px;
+    background-color:#e7e7e7 ;
+    font-weight: bold;
+}
+.text--1 .village{
+    font-size: 1em;
+    color: #e7e7e7;
+}
+.home .button-getStarted button{
+    color: white;
+    width: 20%;
+    border: 1px white solid;
+    margin: 40px;
+    font-size: 23px;
+    padding: 10px;
+    background-color:#bd2308 ;
+    font-weight: bold;
+}

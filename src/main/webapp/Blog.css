@@ -1,0 +1,108 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+}
+.navbar a {
+  color: #333333;
+  text-decoration:none;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  align-items:center;
+}
+
+.navbar .brand {
+  display: block;
+  color: #333333;
+  padding: 0 24px;
+  font-size: 20px;
+}
+
+.navbar ul li a {
+  color: #333333;
+  padding: 24px;
+  display: block;
+}
+.navbar ul a:hover,
+.navbar ul a:focus,
+.navbar ul .active {
+  background-color: #272727;
+}
+.blog_container{
+    padding: 20px;
+    background-color: rgb(237,237,237);
+    float:left;
+    margin: 3%;
+    width: 30%;
+    height: 21%;
+    border-radius: 10px;
+}
+.blogImage img{
+    border-radius: 10px;
+    width:100%;
+    height:200px;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+.blogName{
+    margin:0 0 5px 5px;
+    float: left;
+    font-size: 160%;
+    font-weight: 600;
+}
+.productPrice{
+    text-align: right;
+    font-weight: bold;
+    font-size: 25px; 
+}
+.seasons{
+	margin:0 0 5px 5px;
+    float: left;
+    font-size: 25px;
+    text-transform:capitalize;
+    font-weight:bold;
+}
+.genre,.air{
+	float:right;
+    text-align: right;
+    font-size: 15px; 
+    background-color:#333333;
+    border-radius: 10px;
+    padding: 7px;
+    color: white;
+    margin-right:5px;
+}
+.rect{
+    margin-left: 7px;
+    width: 50px;
+    height:5px;
+    background-color: #000000;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    float:left;
+}
+.clearfix{
+    clear:both;
+}
+.blogText{
+    float: left;
+    text-align: right;
+    margin-left: 5px;
+    color:#777777;
+}
+.productDesc{
+    clear: both;
+    margin-left: 20px;
+    font-size: 15px;
+}
